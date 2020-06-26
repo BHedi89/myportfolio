@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background: #ffc600;
+    background: white;
     font-family: 'helvetica neue';
     font-size: 20px;
     font-weight: 200;
@@ -46,7 +46,6 @@ body {
 .panel4 { background-image:url("./image/unusual-models-pic6.jpg"); }
 .panel5 { background-image:url("./image/GettyImages-1213740333.jpgtiny-1024x768.jpg"); }
 
-  /* Flex Children */
 .panel > * {
     margin: 0;
     width: 100%;
@@ -76,4 +75,30 @@ body {
 .panel.open {
     flex: 5;
     font-size: 40px;
+}
+
+.footer {
+    background-color: rgba(128, 128, 128, 0.534);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+}
+
+.fa-chevron-down {
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    margin-top: 11px;
+    color: black;
+}
+
+.footer-text {
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
 }

@@ -40,11 +40,11 @@ body {
     flex-direction: column;
 }
 
-.panel1 { background-image:url("./image/399974.jpg"); }
-.panel2 { background-image:url("./image/husky-with-two-different-colored-eyes.jpg"); }
-.panel3 { background-image:url("./image/shutterstock_734732989.jpg"); }
-.panel4 { background-image:url("./image/unusual-models-pic6.jpg"); }
-.panel5 { background-image:url("./image/GettyImages-1213740333.jpgtiny-1024x768.jpg"); }
+.panel1 { background-image:url("../image/399974.jpg"); }
+.panel2 { background-image:url("../image/husky-with-two-different-colored-eyes.jpg"); }
+.panel3 { background-image:url("../image/shutterstock_734732989.jpg"); }
+.panel4 { background-image:url("../image/unusual-models-pic6.jpg"); }
+.panel5 { background-image:url("../image/GettyImages-1213740333.jpgtiny-1024x768.jpg"); }
 
 .panel > * {
     margin: 0;
@@ -66,6 +66,7 @@ body {
     font-family: 'Amatic SC', cursive;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
     font-size: 2em;
+    color: white;
 }
   
 .panel p:nth-child(2) {
@@ -101,4 +102,5 @@ body {
     text-align: center;
     position: relative;
     margin-bottom: 30px;
+    color: black;
 }
